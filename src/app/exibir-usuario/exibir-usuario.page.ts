@@ -21,7 +21,7 @@ public user: any = {};
     this.userService.buscarId(this.id).subscribe(dados => {
       this.user = dados['data'];
       console.log(this.user);
-    })
+    });
   }
 
 }
